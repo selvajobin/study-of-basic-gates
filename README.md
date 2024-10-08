@@ -66,23 +66,38 @@ Y= A⊕B
 
 Program for logic gates and verify its truth table in quartus using Verilog programming
 
- Developed by: selva jobin s
+ Developed by: RegisterNumber: 212223240116
+ Name: Ponguru Aasrith Sairam
+
+ # Program
+ ```
+module exp1(f_and,f_or,f_nor,f_not,f_nand,f_xor,f_xnor,a,b);
+input a,b;
+output f_and,f_or,f_nor,f_not,f_nand,f_xor,f_xnor;
+and(f_and,a,b);
+or(f_or,a,b);
+nor(f_nor,a,b);
+not(f_not,a);
+nand(f_nand,a,b);
+xor(f_xor,a,b);
+xnor(f_xnor,a,b);
+endmodule
+```
  
- RegisterNumber: 212223220102
+ 
+**Logic symbol & Truthtable**
+![image](https://github.com/user-attachments/assets/09235d3e-f462-4b80-819c-f154d1088ed9)
 
- ## PROGRAM
- ![Screenshot 2024-03-13 153354](https://github.com/04Varsha/study-of-basic-gates/assets/149035374/91cd9c06-dc03-4c8c-9aca-5f9e3eab0189)
 
-## Logic symbol & Truthtable
-![Screenshot 2024-03-13 153758](https://github.com/04Varsha/study-of-basic-gates/assets/149035374/f9705d15-097d-41f0-938e-727ac8c817fe)
+**RTL realization**
+![image](https://github.com/user-attachments/assets/2c1d2e12-e3cb-4f56-8cb5-54cc2afd7c71)
 
-## RTL realization 
-![Screenshot 2024-03-13 152531](https://github.com/04Varsha/study-of-basic-gates/assets/149035374/523d3d1f-416e-46fc-b087-8e2e92053a69)
+**Output:** 
+![de waveform final exp 1](https://github.com/user-attachments/assets/6ba6322a-e019-437b-a9d2-2455e373a89e)
 
-## Output:
-![Screenshot 2024-03-13 153234](https://github.com/04Varsha/study-of-basic-gates/assets/149035374/f207de9e-70e8-480c-805b-7bba6eba26d7)
 
-## Result: 
+
+**Result:**
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
 
 
